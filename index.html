@@ -3,20 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Assignments</title>
-    <style>
-      body {
-        background-color: gray;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-      }
-      h1 {
-        color: blue;
-      }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
   </head>
   <body>
-    <h1>My CSS Assignments</h1>
+    <section class="profile">
+      <div class="details">
+        <img
+          src="./Me.jpg"
+          style="height: 200px; width: 200px; border-radius: 100px"
+        />
+        <p class="name">Muhammad Fawwaz Bashir</p>
+        <p class="id">ALT/SOE/024/2830</p>
+        <p class="track">Backend Engineering</p>
+      </div>
+      <div class="profile-links">
+        <a href="https://github.com/muhdfawwazbashir" target="_blank">
+          <i class="fa-brands fa-github" style="color: black"></i>
+        </a>
+        <a href="https://linkedin.com/in/muhammad-fawwaz-bashir-99059a200" target="_blank">
+          <i class="fa-brands fa-linkedin" style="color: teal"></i>
+        </a>
+        <a href="https://x.com/FawwazBashir" target="_blank">
+            <i class="fa-brands fa-twitter" style="color: darkblue;"></i>
+        </a>
+        <a href="mailto:muhdfawwazbashir@gmail.com" target="_blank">
+            <i class="fa-solid fa-envelope" style="color: teal"></i>
+        </a>
+      </div>
+    </section>
+    <section class="projects">
+      <h1>CSS Assignments</h1>
+      <div class="cards">
+        <a href="https://otter-essay-one.vercel.app/" class="card">
+          <img src="./otter essay.png" alt="" />
+          <p>Assignment 1</p>
+          <p>Otter Essay</p>
+        </a>
+        <a href="https://huckleberry-phi.vercel.app/" class="card">
+          <img src="./huckleberry.png" alt="" />
+          <p>Assignment 2</p>
+          <p>Huckleberry</p>
+        </a>
+        <a href="https://novuswatch-roan.vercel.app/" class="card">
+            <img src="./novuswatch.png" alt="" />
+            <p>Assignment 3</p>
+            <p>Novus Watch</p>
+          </a>
+          <a href="https://web-development-rouge-nine.vercel.app/" class="card">
+            <img src="./webdevelopment.png" alt="" />
+            <p>Assignment 4</p>
+            <p>Web Development Training</p>
+          </a>
+          <a href="https://wp-pusher-rouge.vercel.app/" class="card">
+            <img src="./Wp_pusher.png" alt="" />
+            <p>Assignment 5</p>
+            <p>WP Pusher</p>
+          </a>
+      </div>
+    </section>
   </body>
 </html>
